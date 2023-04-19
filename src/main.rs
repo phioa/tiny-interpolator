@@ -21,6 +21,7 @@ fn main() {
                 println!("add name (a0 a1 ... an) -- add a named polynomial in the map.");
                 println!("rn old-name new-name -- rename a polynomial in the map.");
                 println!("rm name -- remove a polynomial from the map.");
+                println!("quit -- quit the program.");
                 println!("NOTE: names in the map can be used as vectors.");
             }) as Cmd,
         ),
