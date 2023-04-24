@@ -142,7 +142,7 @@ fn main() {
                         } else {
                             first_time = false;
                         }
-                        if a == -BigRational::one() {
+                        if a == -BigRational::one() && i != 0 {
                             print!("-");
                         } else if !a.is_one() || i == 0 {
                             print!("{}", a);
